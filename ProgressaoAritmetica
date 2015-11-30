@@ -1,0 +1,16 @@
+Program PA ;
+var a0, limite, razao, pa: real;
+
+Begin
+	readln (a0);
+	readln(limite);
+	readln(razao);
+	pa:=a0;
+	
+	while pa<limite do
+	begin
+	  writeln(pa);
+		pa:=pa+razao;
+		
+	end;  
+End.
